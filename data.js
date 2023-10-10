@@ -1349,15 +1349,30 @@
 
 let country_data = {
   "Sierra Leone" : {
-    "About" : "Nothing In Here"
+    "About" : "A new country"
   },
   "Guinea-Bissau" : {
-    "About" : "A new country for test"
+    "About" : "A new country"
   },
   "Zimbabwe":{
-    "About" : "A new country for test"
+    "About" : "A new country"
   },
   "Mozambique" : {
-    "About" : "A new country for test"
+    "About" : "A new country"
+  },
+  "Malawi": {
+    "About" : "A new country"
+  },
+  "Zambia" : {
+    "About" : "A new country"
+  },
+  "Central African Republic" : {
+    "About" : "A new country"
+  },
+  "Democratic Republic of the Congo" : {
+    "About" : "A new country"
+  },
+  "Burundi" : {
+    "About" : "A new country"
   }
 };
