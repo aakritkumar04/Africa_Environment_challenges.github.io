@@ -394,7 +394,9 @@ function loadGlobe() {
         </div>`
       }
       else if (country.id == 694) {
-        str += `<div><h3>${"World Bank Engagement in Sierra Leone"}</h3><br/><h2>${"Helping Women Farmers:"}</h2><br/>
+        str += `<div>
+        <br/>
+        <h3>${"World Bank Engagement in Sierra Leone"}</h3><br/><h2>${"Helping Women Farmers:"}</h2><br/>
         <ol><li>${"The Smallholder Commercialization and Agribusiness Development Project (SCADeP) has helped beneficiaries improve household incomes, asset ownership, and food security."}</li><li>${"54,392 women out of 125,681 beneficiaries (43%) have benefited from the project."}</li><li>${"Over a hundred children have completed primary, secondary, and university education thanks to a benefit-sharing scheme."}</li></ol>
         <h3>${"Clean Energy Generation:(31 / Jan / 2023)"}</h3><br/>
         <p>${"West Africa has one of the lowest electrification rates, with 220 million people living without access, coupled with some of the highest electricity costs in Sub-Saharan Africa. Rising oil prices – as a consequence of the war in Ukraine – have increased the liabilities of electricity utilities, and countries are facing an acute power supply crisis that threatens their economic growth. Furthermore, countries in the region rely on oil-based power plants to meet growing demand. In addition to the negative impact on the climate, this leads to increasingly higher tariffs for consumers."}</p><br/>
@@ -413,6 +415,7 @@ function loadGlobe() {
       else if(country.id == 716)
       {
         str+=`<div>
+        <br/>
         <h3>${"Introduction:"}</h3>
         <br/>
         <p>${"Zimbabwe is a landlocked country located in southern Africa. It shares borders with South Africa to the south, Botswana to the west and southwest, Mozambique to the east and northeast, and Zambia to the northwest."}</p><br/>
@@ -437,18 +440,82 @@ function loadGlobe() {
       else if(country.id == 508)
       {
         str+=`<div>
+        <br/>
           <h3>${"Introduction"}</h3><br/>
           <p>${"Mozambique is situated on the southeastern coast of Africa, bordered by Tanzania to the north, Malawi, Zambia, and Zimbabwe to the northwest, South Africa and Eswatini to the southwest, and the Indian Ocean to the east. The country has a long coastline along the Indian Ocean, which stretches for approximately 1,600 kilometers (994 miles)."}</p>
           <br/>
           <ol><li>${" High Poverty Rates: Mozambique is one of the world's poorest countries, with a large percentage of its population living below the poverty line. According to data available up to my knowledge cutoff datein September 2021, a substantial portion of the population lived in poverty, with many living on less than $1.90 per day, which is the international poverty line defined by the World Bank."}</li><li>${"Rural-Urban Disparities: Poverty in Mozambique is often more acute in rural areas than in urban centers. Many rural communities rely on subsistence farming and face challenges such as limited access to healthcare, education, and infrastructure."}</li><li>${"Impact of Armed Conflict: Mozambique has a history of armed conflict and civil war, which has contributed to poverty and underdevelopment. Conflicts disrupt economic activities, displace communities, and divert resources away from development efforts."}</li><li>${"Agriculture-Based Economy: The country's economy is heavily reliant on agriculture, which is vulnerable to climate-related challenges, such as droughts and floods. These events can have a devastating impact on rural livelihoods and contribute to poverty."}</li><li>${"Limited Access to Education and Healthcare: Access to education and healthcare services is limited, particularly in rural areas. This can hinder human capital development and perpetuate the cycle of poverty."}</li><li>${"Inequality: Income and wealth inequality are significant issues in Mozambique, with a small portion of the population holding a disproportionate share of the country's resources and wealth."}</li><li>${"Natural Disasters: Mozambique is susceptible to natural disasters, including cyclones and flooding, which can lead to loss of life, displacement, and destruction of infrastructure, further exacerbating poverty."}</li></ol>
         </div>`
       }
-      else if(colorCountry.id == 454)
+      else if(country.id == 454)
       {
         str+=`<div>
           <p>${"Agriculture and Subsistence Farming: The majority of Malawi's population relies on agriculture, mainly subsistence farming, for their livelihoods. While agriculture is essential for food security and income generation, unsustainable farming practices like deforestation for land clearance and inadequate soil conservation can lead to soil erosion and land degradation, making it difficult for farmers to escape poverty."}</p><br/>
           <p>${"Deforestation: Malawi has experienced significant deforestation due to logging, charcoal production, and land clearing for agriculture. This has detrimental effects on the environment, leading to soil erosion, loss of biodiversity, and reduced water quality. Poor rural communities often rely on forests for fuelwood and other resources, so deforestation impacts their daily lives."}</p><br/>
-          
+          <p>${"Access to Clean Water: Lack of access to clean water and sanitation is a significant challenge in Malawi. Environmental degradation, including water pollution from agricultural runoff and inadequate waste disposal, contributes to the scarcity of safe drinking water. Poor communities are particularly vulnerable to waterborne diseases and the economic burden of healthcare costs."}</p><br/>
+          <p>${" Climate Change Vulnerability: Malawi is highly vulnerable to climate change, which has led to unpredictable rainfall patterns, droughts, and flooding. These climate-related events disrupt agricultural activities, damage infrastructure, and lead to food insecurity, particularly affecting impoverished rural communities."}</p><br/>
+          <p>${"Resource Extraction: Malawi has limited mineral resources, and some forms of resource extraction may lead to environmental degradation if not properly regulated. Extractive industries can also raise issues of land rights and displacement of local communities."}</p><br/>
+          <p>${"Land Degradation: Land degradation is a significant concern, partly due to unsustainable agricultural practices and overgrazing. This reduces land productivity and negatively impacts the livelihoods of rural communities who depend on agriculture."}</p><br/>
+          <p>${"Poverty as a Driver of Environmental Exploitation: Poverty can drive people to exploit natural resources in unsustainable ways as they seek immediate income and sustenance. This includes illegal logging, poaching, and overfishing, all of which can further damage the environment."}</p>
+        </div>`
+      }
+      else if(country.id == 894)
+      {
+        str += `<div>
+        <p>${"Mining Industry: Zambia is known for its copper mining industry, which is a crucial part of the national economy. However, the extraction of minerals, including copper and cobalt, has sometimes led to environmental degradation. Poor regulation and oversight can result in pollution of water bodies and soil, harming both the environment and the health of nearby communities."}</p><br/>
+        <p>${"Deforestation: Deforestation is a pressing environmental concern in Zambia. Logging, agricultural expansion, and charcoal production have contributed to widespread deforestation. The loss of forests impacts the environment by increasing soil erosion, reducing biodiversity, and affecting local climate patterns. It also affects the livelihoods of communities that depend on forests for resources."}</p><br/>
+        <p>${"Agriculture and Land Degradation: Subsistence farming is a common practice in Zambia, and many rural communities rely on it for their livelihoods. Unsustainable farming practices, including overgrazing and poor soil management, have led to land degradation, which reduces agricultural productivity and exacerbates poverty."}</p><br/>
+        <p>${"Water Resource Management: Zambia faces challenges in managing its water resources sustainably. Pollution from agriculture and mining can harm water quality, while water scarcity affects both agriculture and access to clean drinking water for communities."}</p><br/>
+        <p>${" Climate Change Vulnerability: Zambia is vulnerable to climate change impacts, such as changing rainfall patterns, droughts, and flooding. These events can disrupt agricultural activities and lead to food insecurity, disproportionately affecting poor rural communities."}</p><br/>
+        <p>${" Resource Extraction and Local Communities: The extraction of minerals and other resources often takes place in areas where local communities reside. Displacement, land rights issues, and limited benefits to local populations can exacerbate poverty and lead to social conflicts."}</p><br/>
+        <p>${"Poverty as a Driver of Environmental Exploitation: Poverty can drive people to engage in unsustainable environmental practices out of necessity, such as illegal logging, poaching, and charcoal production, which can further damage the environment."}</p><br/>
+        </div>`
+      }
+      else if(country.id == 140)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction:"}</h3><br/>
+        <p>${"CAR is situated in Central Africa and is bordered by several countries, including Chad to the north, Sudan and South Sudan to the northeast, the Democratic Republic of the Congo to the east, the Republic of the Congo to the south, and Cameroon to the west."}</p><br/>
+        <h3>${"Environmental Challenges:"}</h3><br/>
+        <ol><li>${"Natural Resource Exploitation: CAR is rich in natural resources, including timber, diamonds, gold, and other minerals. However, the unregulated and unsustainable exploitation of these resources has been a major problem. Logging, mining, and poaching have led to deforestation, habitat destruction, and loss of biodiversity."}</li><li>${"Conflict and Instability: CAR has experienced prolonged periods of conflict and political instability, with various rebel groups vying for control of resources and power. These conflicts have disrupted agriculture, displaced populations, and hindered economic development."}</li><li>${"Land Degradation: Unsustainable farming practices, such as slash-and-burn agriculture, have contributed to land degradation and soil erosion. This can reduce agricultural productivity and exacerbate food insecurity."}</li><li>${"Climate Change: Central Africa, including CAR, is vulnerable to the impacts of climate change, including changing rainfall patterns and increased temperatures. These changes can affect agriculture and water resources, further exacerbating poverty."}</li><li>${"Lack of Infrastructure: The country's infrastructure, including roads, electricity, and healthcare facilities, is underdeveloped, which hampers economic growth and access"}</li><li>${"Weak Governance and Corruption: Corruption and weak governance have hindered the effective management of natural resources and the equitable distribution of wealth in CAR. This has often benefited a few elites while leaving the majority of the population in poverty."}</li><li>${"Humanitarian Crisis: The combination of conflict, displacement, and environmental challenges has resulted in a severe humanitarian crisis in CAR. Many people lack access to basic necessities, such as clean water, healthcare, and education.The latest estimates, which date from 2020, show that roughly 71% of the population is living below the international poverty line ($1.90 per day, in terms of PPP)."}</li></ol>
+        </div>`
+      }
+      else if(country.id == 180)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction"}</h3><br/>
+        <p>${"The DRC is the largest country in sub-Saharan Africa and the second-largest in Africa, after Algeria. It is located in Central Africa and is bordered by nine countries: Republic of the Congo to the west, Angola to the southwest, Zambia to the south, Tanzania to the east, Burundi, Rwanda, and Uganda to the east, South Sudan to the northeast, and the Central African Republic to the north."}</p><br/>
+        <h5>${"1. Poverty in the DRC:"}</h5><br/>
+        <ol><li>${"Economic Challenges: The DRC is one of the poorest countries in the world.Despite its vast mineral wealth, much of the population lives in extreme poverty. Economic development has been hampered by decades of conflict, corruption, and mismanagement of resources."}</li><li>${"High Poverty Rates: A large portion of the population lacks access to basic necessities such as clean water, adequate healthcare, education, and proper housing."}</li><li>${"Rural Poverty: Rural areas, where the majority of the population resides, often face food insecurity, limited access to markets, and inadequate infrastructure."}</li></ol><br/>
+        <h5>${"2. Environmental Exploitation:"}</h5><br/>
+        <ol><li>${"Deforestation: The DRC is home to a significant portion of the world's second-largest rainforest, the Congo Basin. Deforestation, often driven by logging and agriculture, threatens biodiversity and contributes to climate change."}</li><li>${"Mineral Extraction: The DRC is rich in minerals, including coltan, cobalt, and gold, which are essential components in various electronics. However, the extraction of these minerals has often been associated with environmental degradation, including soil and water pollution."}</li><li>${"Wildlife Poaching: Poaching of endangered species, such as elephants and gorillas, for their ivory and meat is a serious issue in the DRC, particularly in the Virunga National Park."}</li></ol><br/>
+        <h5>${"3. Impact of Conflict:"}</h5><br/>
+        <ol><li>${"Conflict Minerals: The DRC has been plagued by conflict for decades, with armed groups fighting for control over resources. The illegal trade in conflict minerals has funded violence and perpetuated instability."}</li><li>${"Displacement: Ongoing conflict has resulted in the displacement of millions of people, leading to increased poverty, food insecurity, and reliance on unsustainable practices for survival."}</li></ol><br/>
+        <h5>${"4. Environmental Conservation Efforts:"}</h5><br/>
+        <ol><li>${"Conservation Initiatives: The DRC, with international support, has made efforts to protect its biodiversity and forests through conservation initiatives and national parks, such as Virunga and Garamba National Parks."}</li><li>${"Sustainable Development: There are efforts to promote sustainable development practices, including community-based forestry management and responsible mining, to reduce environmental harm while supporting local livelihoods."}</li></ol><br/>
+        <h5>${"5. International Involvement:"}</h5><br/>
+        <ol><li>${"International Assistance: Various international organizations and NGOs are actively involved in providing humanitarian aid, supporting conservation, and addressing poverty and conflict-related issues in the DRC."}</li></ol><br/>
+        </div>`
+      }
+      else if(country.id == 108)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction"}</h3><br/>
+        <p>${"Burundi is situated in the African Great Lakes region and is bordered by Rwanda to the north, Tanzania to the east and south, and the Democratic Republic of the Congo and Lake Tanganyika to the west."}</p><br/>
+        <p>${"The country is characterized by hilly terrain and a number of lakes, including Lake Tanganyika, one of the deepest freshwater lakes in the world."}</p><br/>
+        <h5>${"1. Poverty in Burundi:"}</h5><br/>
+        <ol><li>${"Economic Challenges: Burundi is one of the poorest countries in the world. The majority of the population relies on subsistence agriculture, and the country faces challenges in diversifying its economy."}</li><li>${"High Poverty Rates: A significant portion of the population lives in poverty, with limited access to basic services such as healthcare, education, and clean water."}</li><li>${"Food Insecurity: Malnutrition and food insecurity are prevalent, particularly in rural areas where many households struggle to produce enough food to meet their needs."}</li></ol><br/>
+        <h5>${"2. Environmental Exploitation:"}</h5><br/>
+        <ol><li>${"Deforestation: Burundi has experienced significant deforestation due to the expansion of agriculture and the demand for firewood and timber. This has led to soil erosion, reduced biodiversity, and adverse effects on local ecosystems."}</li><li>${"Soil Degradation: Unsustainable farming practices, such as slash-and-burn agriculture, have contributed to soil degradation, reducing agricultural productivity."}</li><li>${"Water Pollution: Pollution of water sources, often caused by inadequate waste disposal and agricultural runoff, poses health risks and affects the availability of clean water for drinking and irrigation."}</li></ol><br/>
+        <h5>${"3. Impact of Conflict:"}</h5><br/>
+        <ol><li>${"Historical Conflict: Burundi experienced ethnic conflict and a civil war in the past,which disrupted the economy and led to displacement and poverty."}</li><li>${"Displacement: Ongoing political tensions and violence have caused population displacement, with many people living in refugee camps or facing food insecurity."}</li></ol><br/>
+        <h5>${"4. Conservation and Environmental Efforts:"}</h5><br/>
+        <ol><li>${"Conservation Challenges: Despite its small size, Burundi has made efforts to conserve its natural resources. However, these efforts are often limited by poverty, lack of resources, and competing land-use demands."}</li><li>${"Sustainable Agriculture: Some organizations and initiatives aim to promote sustainable agricultural practices and reforestation to address soil degradation and deforestation."}</li></ol><br/>
+        <h5>${"5. International Assistance:"}</h5><br/>
+        <ol><li>${"Foreign Aid: Burundi has received foreign aid and assistance from international organizations and NGOs to address poverty, health issues, and environmental challenges."}</li><li>${"Capacity Building: International organizations work to strengthen the capacity of local institutions and communities to manage their natural resources sustainably."}</li></ol><br/>
         </div>`
       }
       current2

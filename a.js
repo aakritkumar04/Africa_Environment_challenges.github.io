@@ -217,7 +217,7 @@ let colist = [
   },
   {
     id: "180",
-    name: "Congo, the Democratic Republic of the",
+    name: "Democratic Republic of the Congo",
   },
   {
     id: "184",
