@@ -85,7 +85,7 @@ function loadGlobe() {
   // }
 
   // ms to wait after dragging before auto-rotating
-  var rotationDelay = 5000;
+  var rotationDelay = 10000;
   // scale of the globe (not the canvas element)
   var scaleFactor = 0.9;
   // autorotation speed
@@ -516,6 +516,118 @@ function loadGlobe() {
         <ol><li>${"Conservation Challenges: Despite its small size, Burundi has made efforts to conserve its natural resources. However, these efforts are often limited by poverty, lack of resources, and competing land-use demands."}</li><li>${"Sustainable Agriculture: Some organizations and initiatives aim to promote sustainable agricultural practices and reforestation to address soil degradation and deforestation."}</li></ol><br/>
         <h5>${"5. International Assistance:"}</h5><br/>
         <ol><li>${"Foreign Aid: Burundi has received foreign aid and assistance from international organizations and NGOs to address poverty, health issues, and environmental challenges."}</li><li>${"Capacity Building: International organizations work to strengthen the capacity of local institutions and communities to manage their natural resources sustainably."}</li></ol><br/>
+        </div>`
+      }
+      else if(country.id == 404)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction"}</h3>
+        <p>${"Kenya, located in East Africa, is a land of astonishing ecological diversity. Its expansive landscapes, from the rolling savannas of the Maasai Mara to the towering peaks of Mount Kenya, house a plethora of wildlife and ecosystems. However, beneath this natural splendor lies a complex tapestry of environmental challenges that Kenya faces as it strives for development and conservation."}</p><br/>
+        <h3>${"Environmental Challenges:"}</h3><br/>
+        <h5>${"1. Poverty and Food Insecurity:"}</h5><br/>
+        <p>${"A significant portion of Kenya's population grapples with poverty, particularly in rural areas. This dire economic situation intersects with food insecurity. The impacts of climate change, characterized by erratic rainfall and prolonged droughts, have left many vulnerable. Small-scale farmers and marginalized communities often bear the brunt, struggling to secure their next meal."}</p><br/>
+        <h5>${"2. Water Scarcity:"}</h5><br/>
+        <p>${"Kenya's water resources are unevenly distributed, with arid and semi-arid regions enduring chronic water scarcity. Access to clean, safe drinking water is a daily challenge for many, and the agricultural sector, a backbone of Kenya's economy, suffers due to irregular and inadequate water supplies."}</p><br/>
+        <h5>${"3. Wildlife Exploitation:"}</h5><br/>
+        <p>${"Kenya's wildlife is celebrated worldwide, yet it faces relentless threats. Poaching, driven by demand for ivory and other illegal wildlife products, poses a grave risk to iconic species like elephants and rhinoceroses. Illegal wildlife trade networks operate across borders, fueling this trade. Conservation efforts are critical to protect these creatures and safeguard the tourism industry, a significant contributor to Kenya's economy."}</p><br/>
+        <h5>${"4. Deforestation:"}</h5><br/>
+        <p>${"Unchecked deforestation, propelled by expanding agriculture, logging, and infrastructure development, is contributing to soil erosion, habitat loss, and increased greenhouse gas emissions. Forested areas are rapidly shrinking, compromising biodiversity and the crucial role forests play in regulating the climate."}</p><br/>
+        <h3>${"Pressing Issue: Wildlife Conservation"}</h3><br/>
+        <p>${"Among these pressing environmental challenges, wildlife conservation emerges as a paramount concern. Kenya's unique ecosystems, such as the Maasai Mara and Amboseli National Park, serve as global biodiversity hotspots. The conservation of these habitats and their charismatic inhabitants, like lions and giraffes, isn't just an ethical imperative but also a linchpin of Kenya's economy. Wildlife tourism draws visitors from across the globe, bolstering revenue and creating employment opportunities."}</p><br/>
+        <h3>${"Graphs and Satellite Images:"}</h3><br/>
+        <h5>${"Poverty and Food Insecurity Trends"}</h5><br/>
+        <p>${"A line graph depicting trends in poverty rates and food insecurity over the past decade, highlighting variations and correlations."}</p><br/>
+        <h5>${"Water Scarcity Map"}</h5><br/>
+        <p>${"A satellite image pinpointing water scarcity hotspots in Kenya, emphasizing regions most affected by this critical issue."}</p><br/>
+        <h5>${"Deforestation Patterns"}</h5><br/>
+        <p>${"A series of satellite images showcasing the patterns of deforestation in Kenya over the years, underscoring the extent of forest loss."}</p><br/>
+        <h5>${"Wildlife Conservation Impact"}</h5><br/>
+        <p>${"Graphs illustrating the outcomes of wildlife conservation efforts, including changes in poaching incidents and wildlife population trends."}</p>
+        </div>`
+      }
+      else if(country.id == 706)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction:"}</h3><br/>
+        <p>${"Somalia, located in the Horn of Africa, boasts a diverse landscape ranging from arid deserts to lush coastal regions. Despite its natural beauty, Somalia faces a complex set of environmental challenges that intersect with its socio-economic dynamics and historical conflicts."}</p><br/>
+        <h3>${"Environmental Challenges:"}</h3><br/>
+        <h5>${"1. Desertification and Land Degradation:"}</h5>
+        <p>${"Somalia's arid and semi-arid regions are prone to desertification and land degradation. Overgrazing, deforestation, and unsustainable land-use practices have exacerbated these issues, impacting agricultural productivity and food security."}</p><br/>
+        <h5>${"2. Water Resource Scarcity:"}</h5><br/>
+        <p>${"Access to clean water is a pressing concern in Somalia, exacerbated by recurrent droughts and limited infrastructure. Unequal distribution, competition for resources, and climate change contribute to water scarcity challenges."}</p><br/>
+        <h5>${"3. Coastal Erosion and Marine Conservation:"}</h5><br/>
+        <p>${"Somalia's extensive coastline is vulnerable to coastal erosion, exacerbated by factors like climate change and illegal fishing. Protecting marine ecosystems and resources is essential for livelihoods and food security."}</p><br/>
+        <h5>${"4. Energy Access and Sustainability:"}</h5><br/>
+        <p>${"Access to energy, especially in rural areas, is limited. Dependence on traditional biomass fuels contributes to deforestation and indoor air pollution. Somalia is exploring renewable energy options for sustainability."}</p><br/>
+        <h3>${"Pressing Issue: Desertification and Land Degradation"}</h3><br/>
+        <p>${"Among Somalia's environmental challenges, desertification and land degradation are pressing issues. Prolonged droughts, coupled with unsustainable land-use practices, have led to the expansion of arid areas and the degradation of fertile land. This affects agriculture and food security, particularly for vulnerable communities."}</p><br/>
+        <h3>${"Graphs and Satellite Images:"}</h3><br/>
+        <h5>${"Desertification Trends"}</h5><br/>
+        <p>${"A graph illustrating trends in desertification and land degradation over the past decade, emphasizing regional disparities and areas most affected."}</p><br/>
+        <h5>${"Water Scarcity Map"}</h5><br/>
+        <p>${"A satellite image highlighting variations in water scarcity across Somalia, pinpointing areas most impacted by limited access to clean water."}</p><br/>
+        <h5>${"Coastal Erosion Patterns"}</h5><br/>
+        <p>${"A series of satellite images depicting coastal erosion patterns along Somalia's coastline, emphasizing the challenges faced by coastal communities."}</p><br/>
+        <h5>${"Energy Transition Progress"}</h5><br/>
+        <p>${"Graphs representing Somalia's progress in transitioning to cleaner energy sources, with a focus on rural electrification and reducing biomass fuel usage."}</p>
+        </div>`
+      }
+      else if(country.id == 231)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction"}</h3>
+        <p>${"Ethiopia, often referred to as the 'Roof of Africa' due to its highlands, is a diverse nation known for its rich cultural heritage and stunning landscapes. Despite its natural beauty, Ethiopia faces a unique set of environmental challenges that are closely intertwined with its socio-economic dynamics and ambitions for development."}</p><br/>
+        <h3>${"Environmental Challenges:"}</h3><br/>
+        <h5>${"1. Deforestation and Land Degradation:"}</h5><br/>
+        <p>${"Ethiopia experiences significant deforestation, driven by factors such as agricultural expansion, logging, and the demand for firewood. This has led to land degradation and soil erosion, affecting agricultural productivity and food security."}</p><br/>
+        <h5>${"2. Water Resource Management:"}</h5><br/>
+        <p>${"Access to clean and safe water is a critical concern, especially in rural areas. Rapid population growth, unequal distribution, and the impacts of climate change contribute to water scarcity and related health issues."}</p><br/>
+        <h5>${"3. Biodiversity Conservation:"}</h5><br/>
+        <p>${"Ethiopia is known for its diverse ecosystems and unique wildlife, including the Ethiopian wolf and the Gelada baboon. However, habitat loss due to deforestation, land-use changes, and poaching poses a significant threat to these invaluable resources."}</p><br/>
+        <h5>${"4. Energy Access and Sustainability:"}</h5><br/>
+        <p>${"Access to energy sources remains limited in Ethiopia. The dependence on traditional biomass fuels contributes to deforestation and indoor air pollution. The nation is making strides in expanding access to cleaner and sustainable energy sources."}</p><br/>
+        <h3>${"Pressing Issue: Deforestation and Land Degradation"}</h3><br/>
+        <p>${"Among Ethiopia's environmental challenges, deforestation and land degradation take center stage. Unsustainable land-use practices, coupled with population pressure, have led to significant deforestation. This not only impacts forests but also exacerbates soil erosion, affecting agricultural productivity and food security, especially in rural areas."}</p><br/>
+        <h3>${"Graphs and Satellite Images:"}</h3><br/>
+        <h5>${"Deforestation Trends"}</h5><br/>
+        <p>${"A graph illustrating trends in deforestation rates over the past decade, emphasizing regional disparities and areas most affected."}</p><br/>
+        <h5>${"Water Scarcity Map"}</h5><br/>
+        <p>${"A satellite image showcasing variations in water scarcity across Ethiopia, pinpointing areas most impacted by limited access to clean water."}</p><br/>
+        <h5>${"Habitat Loss Patterns"}</h5><br/>
+        <p>${"A series of satellite images depicting habitat loss patterns in critical wildlife areas, emphasizing the challenges faced by conservation efforts."}</p><br/>
+        <h5>${"Energy Transition Progress"}</h5><br/>
+        <p>${"Graphs representing Ethiopia's progress in transitioning to cleaner energy sources, with a focus on renewable energy adoption and rural electrification."}</p><br/>
+        </div>`
+      }
+      else if(country.id == 232)
+      {
+        str+=`<div>
+        <br/>
+        <h3>${"Introduction"}</h3><br/>
+        <p>${"Eritrea, located in the Horn of Africa, is a nation with a diverse landscape that includes mountains, deserts, and a stunning coastline along the Red Sea. Despite its natural beauty, Eritrea faces a unique set of environmental challenges that intersect with its history, geography, and development goals."}</p><br/>
+        <h3>${"Environmental Challenges:"}</h3><br/>
+        <h5>${"1. Deforestation and Land Degradation:"}</h5><br/>
+        <p>${"Eritrea experiences deforestation primarily due to agricultural expansion, urbanization, and the demand for firewood. This leads to land degradation, soil erosion, and reduced agricultural productivity."}</p><br/>
+        <h5>${"2. Water Resource Management:"}</h5><br/>
+        <p>${"Access to clean and safe water is a critical concern in Eritrea, especially in rural areas. Uneven distribution, over-extraction of groundwater, and the impacts of climate change contribute to water scarcity and related health issues."}</p><br/>
+        <h5>${"3. Marine Resource Conservation:"}</h5><br/>
+        <p>${"Eritrea's Red Sea coastline is rich in marine biodiversity and potential for fisheries. However, unsustainable fishing practices, pollution, and climate change pose threats to these valuable resources."}</p><br/>
+        <h5>${"4. Energy Access and Sustainability:"}</h5><br/>
+        <p>${"Access to modern energy sources is limited in Eritrea, particularly in rural areas. Dependence on traditional biomass fuels contributes to deforestation and indoor air pollution. The nation aims to expand access to sustainable energy."}</p><br/>
+        <h3>${"Pressing Issue: Deforestation and Land Degradation"}</h3><br/>
+        <p>${"Among Eritrea's environmental challenges, deforestation and land degradation are pressing concerns. Unsustainable land-use practices, coupled with population growth and urbanization, have led to significant deforestation. This not only impacts forests but also exacerbates soil erosion, affecting agricultural productivity and rural livelihoods."}</p><br/>
+        <h3>${"Graphs and Satellite Images:"}</h3><br/>
+        <h5>${"Deforestation Trends"}</h5><br/>
+        <p>${"A graph illustrating trends in deforestation rates over the past decade, highlighting regional disparities and areas most affected."}</p><br/>
+        <h5>${"Water Scarcity Map"}</h5><br/>
+        <p>${"A satellite image showcasing variations in water scarcity across Eritrea, pinpointing areas most impacted by limited access to clean water."}</p><br/>
+        <h5>${"Marine Conservation Challenges"}</h5><br/>
+        <p>${"Visual representations of threats to Eritrea's marine resources, including overfishing and pollution, highlighting areas most affected."}</p><br/>
+        <h5>${"Energy Transition Progress"}</h5><br/>
+        <p>${"Graphs representing Eritrea's progress in transitioning to cleaner energy sources, with a focus on renewable energy adoption and rural electrification."}</p><br/>
         </div>`
       }
       current2

@@ -1374,5 +1374,17 @@ let country_data = {
   },
   "Burundi" : {
     "About" : "A new country"
+  },
+  "Kenya" : {
+    "About" : "A new country"
+  },
+  "Somalia": {
+    "About" : "A new country"
+  },
+  "Ethiopia" : {
+    "About" : "A new country"
+  },
+  "Eritrea" : {
+    "About" : "A new country"
   }
 };
