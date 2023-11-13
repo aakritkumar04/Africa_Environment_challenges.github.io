@@ -12,40 +12,173 @@
   <!-- <script src="https://bl.ocks.org/mbostock/raw/7ea1dde508cec6d2d95306f92642bc42/6aac691494f752142a67cc43c51a0fd09896dbd4/versor.js"></script> -->
   <script src=""></script>
   <style>
+    /* Add a border and box shadow to the image */
+img {
+  border: 4px solid #e4eaee; /* Example border color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow for depth */
+}
+
+/* Add a hover effect to the image */
+img:hover {
+  transform: scale(1.1); /* Increase the scale for a zoom effect on hover */
+}
+
+/* Add a border and box shadow to links wrapping the image */
+a img {
+  border: 4px solid #eef0f1; /* Example border color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow for depth */
+}
+
+/* Add a hover effect to links wrapping the image */
+a img:hover {
+  transform: scale(1.1); /* Increase the scale for a zoom effect on hover */
+}
+
+
+
+/* Add a hover effect to the link */
+a:hover {
+  transform: scale(1.05); /* Scale up on hover for a slight zoom effect */
+}
+
+/* Add styles for the surrounding container */
+.image-container {
+  margin: 20px; /* Example margin for spacing */
+  padding: 15px; /* Example padding for a cleaner look */
+  background: linear-gradient(45deg, #2f302e, #080808); /* Gradient background */
+  border: 0px solid #3498db; /* Solid border with a blue color */
+  border-radius: 8px; /* Added border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added a subtle box shadow for depth */
+  transition: transform 0.3s ease; /* Added a transition for a subtle effect */
+}
+
+/* Add a hover effect to the surrounding container */
+.image-container:hover {
+  transform: scale(1.05); /* Scale up on hover for a slight zoom effect */
+}
+
+/* Apply the class to hyperlinks in your HTML */
+a {
+  color: #0056b3; /* Example link color */
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s ease, transform 0.3s ease; /* Add transition for color and transform */
+}
+
+a:hover {
+  color: #07be16 !important; /* Change color on hover */
+  text-decoration: underline !important; /* Add underline on hover */
+  transform: scale(1.9) !important; /* Increase scale for a more pronounced zoom effect on hover */
+}
+
+/* Define a class for interesting hyperlink hover effects */
+.link-hover:hover {
+  color: #be0707;
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  transform: scale(1.1); /* Increase the scale for a more noticeable zoom effect */
+  font-size: 1.9em; /* Increase the font size on hover */
+  font-weight: bold; /* Make the text bold on hover */
+}
+
+
+
+
+
     html,
     body {
-      margin: 0;
-      padding: 0;
-      background: rgb(200, 200, 200);
-    }
+  margin: 0;
+  padding: 0;
+  background: url('stars_glare_space_black_sky_background_4k_hd_galaxy-3840x2160.jpg') center/cover no-repeat; 
+  font-family: 'Roboto', sans-serif; /* Example font-family */
+  color: #fcfafa; /* Example text color */
+  line-height: 1.6; /* Example line height */
+  }
 
-    #globe {
-      cursor: move;
-      /* width: 400px;
-        height: 400px; */
+    h1 {
+      font-weight: bold; /* Example font-weight */
+      color: rgb(255, 102, 0); /* Example heading color */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Example text shadow */
     }
-
-    #current {
+    
+    h2 {
+      font-weight: bold; /* Example font-weight */
+      color: #009688; /* Example heading color */
+    }
+    
+    h3 {
+      font-weight: bold; /* Example font-weight */
+      color: #e91e63; /* Example heading color */
+    }
+    
+    h4 {
+      font-weight: bold; /* Example font-weight */
+      color: #ff5722; /* Example heading color */
+    }
+    
+    h5 {
+      font-weight: bold; /* Example font-weight */
+      color: #b6dd1a; /* Example heading color */
+    }
+    
+    h6 {
+      font-weight: bold; /* Example font-weight */
+      color: #f5f1fa; /* Example heading color */
+    }
+    
+    a {
+      color: #0056b3; /* Example link color */
+      text-decoration: none; /* Remove underlines from links */
+    }
+    
+    a:hover {
+      text-decoration: underline; /* Add underline on hover */
+    }
+    
+    blockquote {
+      background-color: #f8f9fa; /* Example background color for blockquote */
+      padding: 10px; /* Example padding */
+      border-left: 4px solid #007bff; /* Example border color for blockquote */
+    }
+    
+    
+        #globe {
+          cursor: move;
+          /* width: 400px;
+            height: 400px; */
+        }
+      
+        #current {
       position: absolute;
-      color: black;
-      font-family: sans-serif;
+      color: white;
+      font-family: 'Helvetica', sans-serif;
       margin-left: 4%;
       margin-top: 4%;
-      position: absolute;
-      background: rgba(240, 240, 240, 0.9);
-      color: #262626;
-      border-radius: 5px;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      padding: 0px;
+      background: linear-gradient(45deg, #161616, #d7e6d6); /* Gradient background */
+      border-radius: 10px; /* Increased border-radius for a smoother look */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1); /* Dual box shadow for depth */
+      padding: 15px;
+      transition: transform 0.3s ease; /* Add a transition for a subtle effect */
     }
-
+    
+    #current:hover {
+      transform: scale(1.05); /* Scale up on hover for a slight zoom effect */
+    }
+    
     .scrollable-content {
-      max-height: 800px;
+      max-height: 600px; /* Adjusted maximum height */
       overflow-y: auto;
-      border: solid #ccc;
-      min-height: 0px;
+      border: 2px solid #3498db; /* Solid border with a blue color */
+      border-radius: 8px; /* Added border-radius for rounded corners */
+      background: linear-gradient(45deg, #2f302e, #080808); /* Gradient background */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added a subtle box shadow for depth */
+      transition: transform 0.3s ease; /* Added a transition for a subtle effect */
     }
-
+    
+    .scrollable-content:hover {
+      transform: scale(1.05); /* Scale up on hover for a slight zoom effect */
+    }
+    
+    
     .zoomed-area {
       width: 100%;
       height: 100%;
@@ -64,7 +197,7 @@
     </div>
     <div class="col">
       <div id="current2" class="mt-5 -ml-5 px-2 rounded-lg scrollable-content" style="background-color: #fff;">
-        <h1 style="margin-left: 250px;">About Us</h1>
+        <h1 style="margin-left: 250px;margin-top: 30px;">About Us</h1>
         <div class="" style="margin-top: 150px; margin-left: 80px;">
           <h1>Environmental Challenges in Africa</h1>
           <h3>Bridging Gaps for Progress</h3>
